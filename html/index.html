@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta標籤 (viewport視口)-->
+    <meta charset="UTF-8">
+    <meta name="description" content="很好看喔"/> <!-- 能讓搜尋引擎更了解這個網站在做啥 -->
+    <meta name="author" content="我"/>
+    <meta name="keywords" content="我, html, 學習"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--                           根據看的裝置抓寬度調寬度  進入網頁時的縮放比為100%-->
+
+
+    <title>都看看誰來了</title>
+</head>
+<body>
+    <!-- 基本標籤 -->
+    <h2>是我啦</h2> <!-- 從h1到h6，數字越小越重要，通常h1只有一個 -->
+    <p>猜猜看我是誰啊 <b>快猜啊</b> </p> <!-- 段落中的文字(<b>用來變粗體 <i>用來便斜體) -->
+    <br/> <!-- 用來換行 -->
+    <hr/> <!-- 水平線 -->
+    <br/>
+    <h2>是我啦</h2>
+    <p>怎麼都猜不到?? <b><i>哭啊</i></b> </p>
+    <br/>
+
+    <!-- 連結&圖片 -->
+    <a href="https://google.com">google</a><p/> <!-- <a>是用來做連結(網站、文件)的 href是屬性 -->
+    <a href="page2.html">page2</a><p/>
+    <a href="dir/page3.html">page3</a><p/>
+    <a href="hotpot1.jpg">火鍋</a>
+    <hr/>
+    
+    <img src="海.jpg" width="720"/>
+    <img src="https://exfast.me/wp-content/uploads/2019/04/1554182762-cddf42691119d44059a16a4095047a33-1140x600.jpg" width="720"/>
+    <hr/>
+
+    <!-- 影片&嵌入youtube影片 -->
+    <video src="my_video.mp4" controls height="360">無法載入影片</video> <!-- 中間的文字會在無法讀取時顯示，有打controls才會顯示控制按鈕 -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y50_RSWpWkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr/>
+
+    <!-- 列表&表格 --> <!-- 用ul會用點排序，用ol會用數字排序(可以用type屬性來改) -->
+    <ol type="i">
+        <li>google</li>
+        <li>facebook</li>
+        <li>ig</li>
+        <li>ptt</li>
+    </ol>
+
+    <table width="400"> <!-- 表示創建一個表格，用width擴大間距 -->
+        <tr> <!-- 創行 -->
+            <td>date</td> <!-- 創列 -->
+            <td>math</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>2/8</td>
+            <td>80</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>2/9</td>
+            <td>85</td>
+            <td>65</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <!-- html的容器 div & span(在用CSS美化、排版比較方便) -->
+    <div style="color: rgb(112, 187, 236); font-size: 130%; font-style: oblique;">
+        <ol type="i">
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ol>
+        <table width="400"> <!-- 表示創建一個表格，用width擴大間距 -->
+            <tr> <!-- 創行 -->
+                <td>date</td> <!-- 創列 -->
+                <td>math</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>2/8</td>
+                <td>80</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2/9</td>
+                <td>85</td>
+                <td>65</td>
+            </tr>
+        </table>
+    </div>
+    <hr/>
+
+    <!-- 標籤分兩種，一種看他佔多少，另一種佔整行 -->
+    <a href="#">link1</a>
+    <a href="#">link2</a>
+    <hr/>
+    <p>你好</p>
+    <p>笑死</p><hr/>
+
+    <span>span1</span>
+    <span>span2</span>
+    <hr/>
+    <div>div1</div>
+    <div>div2</div><hr/>
+
+    <!-- html的輸入標籤(input & textarea) -->
+    <input type="text" placeholder="請輸入帳號"/>
+    <br/>
+    <br/>
+    <input type="password" placeholder="請輸入密碼"/> <!-- 把輸入遮擋 -->
+    <br/>
+    <br/>
+    <input type="date" />
+    <br/>
+    <br/>
+    <input type="range" />
+    <br/>
+    <br/>
+    <input type="file" />
+    <br/>
+    <br/>
+    <input type="checkbox" />
+    <br/>
+    <br/>
+    <textarea>你好</textarea> <!-- 產生一個輸入欄位 -->
+    <hr/>
+
+    
+</body>
+</html>
